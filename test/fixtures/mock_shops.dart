@@ -1,0 +1,60 @@
+import 'package:mv_app/data/models/shop_org.dart';
+
+final List<ShopOrg> mockShops = [
+  const ShopOrg(
+    id: 'shop_1',
+    name: 'Sri Ganesh Store',
+    category: ShopCategory.grocery,
+    phone: '9876500001',
+    address: 'Main Road, Near Bus Stand',
+    timings: '7:00 AM - 9:30 PM',
+  ),
+  const ShopOrg(
+    id: 'shop_2',
+    name: 'Lakshmi Medicals',
+    category: ShopCategory.pharmacy,
+    phone: '9876500002',
+    address: 'Opposite Primary Health Centre',
+    timings: '8:00 AM - 10:00 PM',
+  ),
+  const ShopOrg(
+    id: 'shop_3',
+    name: 'Annapurna Mess',
+    category: ShopCategory.restaurant,
+    phone: '9876500003',
+    address: 'Temple Street',
+    timings: '6:30 AM - 10:00 PM',
+  ),
+  const ShopOrg(
+    id: 'shop_4',
+    name: 'Village Farmers Cooperative',
+    category: ShopCategory.organization,
+    phone: '9876500004',
+    address: 'Panchayat Complex, 1st Floor',
+    timings: '10:00 AM - 5:00 PM (Mon-Sat)',
+  ),
+  const ShopOrg(
+    id: 'shop_5',
+    name: 'Raju Hardware & Paints',
+    category: ShopCategory.hardware,
+    phone: '9876500005',
+    address: 'Market Street',
+    timings: '9:00 AM - 8:30 PM',
+  ),
+  const ShopOrg(
+    id: 'shop_6',
+    name: 'Digital Mobile Point',
+    category: ShopCategory.electronics,
+    phone: '9876500006',
+    address: 'Near Bank of India',
+    timings: '9:30 AM - 9:00 PM',
+  ),
+  const ShopOrg(
+    id: 'shop_7',
+    name: 'Women Self-Help Group',
+    category: ShopCategory.organization,
+    phone: '9876500007',
+    address: 'Community Hall',
+    timings: 'By appointment',
+  ),
+];

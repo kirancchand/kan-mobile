@@ -1,0 +1,63 @@
+import 'package:mv_app/data/models/book_listing.dart';
+
+final DateTime _now = DateTime.now();
+
+final List<BookListing> mockBooks = [
+  BookListing(
+    id: 'bk_1',
+    title: 'Malgudi Days',
+    author: 'R.K. Narayan',
+    listingType: BookListingType.rent,
+    price: 0,
+    rentPerWeek: '₹20/week',
+    ownerName: 'Anitha Rao',
+    ownerPhone: '9876511001',
+    genre: 'Fiction',
+    postedAt: _now.subtract(const Duration(hours: 5)),
+  ),
+  BookListing(
+    id: 'bk_2',
+    title: 'NCERT Class 10 Science',
+    author: 'NCERT',
+    listingType: BookListingType.sell,
+    price: 120,
+    ownerName: 'Kiran Reddy',
+    ownerPhone: '9876511002',
+    genre: 'Academic',
+    postedAt: _now.subtract(const Duration(days: 1)),
+  ),
+  BookListing(
+    id: 'bk_3',
+    title: 'The Alchemist',
+    author: 'Paulo Coelho',
+    listingType: BookListingType.rent,
+    price: 0,
+    rentPerWeek: '₹15/week',
+    ownerName: 'Divya Sharma',
+    ownerPhone: '9876511003',
+    genre: 'Fiction',
+    postedAt: _now.subtract(const Duration(hours: 30)),
+  ),
+  BookListing(
+    id: 'bk_4',
+    title: 'Wren & Martin English Grammar',
+    author: 'P.C. Wren',
+    listingType: BookListingType.buy,
+    price: 150,
+    ownerName: 'Suresh Babu',
+    ownerPhone: '9876511004',
+    genre: 'Academic',
+    postedAt: _now.subtract(const Duration(days: 2)),
+  ),
+  BookListing(
+    id: 'bk_5',
+    title: 'Panchatantra Tales (Illustrated)',
+    author: 'Vishnu Sharma',
+    listingType: BookListingType.sell,
+    price: 90,
+    ownerName: 'Lakshmi Amma',
+    ownerPhone: '9876511005',
+    genre: "Children's",
+    postedAt: _now.subtract(const Duration(hours: 12)),
+  ),
+];

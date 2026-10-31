@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs -I{} sh -c 'echo {}; cat {}')",
+      "Bash(/home/kirancchand/Desktop/install/flutter/flutter_linux_3.29/flutter/bin/flutter build *)",
+      "Bash(/home/kirancchand/Desktop/install/flutter/flutter_linux_3.29/flutter/bin/flutter pub *)"
+    ]
+  }
+}

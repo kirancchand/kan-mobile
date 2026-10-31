@@ -1,0 +1,5 @@
+simulation: services
+routing: path
+mocks:
+  - routeKey: kan
+    path: ../mocks/services/default.js

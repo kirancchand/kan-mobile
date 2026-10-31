@@ -1,0 +1,5 @@
+simulation: organisations
+routing: path
+mocks:
+  - routeKey: kan
+    path: ../mocks/organisations/default.js

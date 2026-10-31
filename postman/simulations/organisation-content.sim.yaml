@@ -1,0 +1,5 @@
+simulation: organisation-content
+routing: path
+mocks:
+  - routeKey: content
+    path: ../mocks/organisation-content/default.js
